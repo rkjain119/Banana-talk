@@ -1,7 +1,7 @@
 var inputTranslateText = document.querySelector("#input-txt");
 var outputTranslateText = document.querySelector("#output-txt");
 
-var  btnTranslator = document.querySelector("#btn-tlate");
+var btnTranslator = document.querySelector("#btn-tlate");
 btnTranslator.addEventListener("click", btnClick);
 
 var server = "https://api.funtranslations.com/translate/minion.json";
