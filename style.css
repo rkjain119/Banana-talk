@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding-top: 2rem;
+    background-color: #ffaf20;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+header {
+    background-color: #10455b;
+    padding: 1rem;
+    color: white;
+}
+
+main {
+    margin: auto;
+    padding: 1rem;
+}
+
+h1,
+.btn {
+    text-align: center;
+}
+
+#btn-tlate,
+#input-txt {
+    font-family: 'Poppins', sans-serif;
+}
+
+#btn-tlate {
+    background-color: #10455b;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 50px;
+    font-weight: 500;
+    /* border-style: none; */
+    padding: 1rem 1.5rem;
+    margin: 1rem 0 1rem 0;
+}
+
+#btn-tlate:hover {
+    opacity: 0.9;
+}
+
+#input-txt {
+    width: 100%;
+    min-height: 15vh;
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 20px;
+    /* border-style: none; */
+}
+
+.tlated-txt h3 {
+    color: black;
+    margin-bottom: 1rem;
+}
+
+#output-txt {
+    width: 100%;
+    padding: 1rem;
+    background-color: whitesmoke;
+    color: #10455b;
+    min-height: 15vh;
+    font-size: 1.5rem;
+    /* border-style: none; */
+    border-radius: 20px;
+}
