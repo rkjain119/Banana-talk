@@ -4,7 +4,7 @@ var outputTranslateText = document.querySelector("#output-txt");
 var btnTranslator = document.querySelector("#btn-tlate");
 btnTranslator.addEventListener("click", btnClick);
 
-var server = "https://api.funtranslations.com/translate/minion.json";
+var server = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json";
 
 function btnClick(e) {
     var input = inputTranslateText.value;
