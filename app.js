@@ -20,5 +20,5 @@ function btnClick(e) {
 
 function constructURL(inputText) {
     var encodedURI = encodeURI(inputText);
-    return "${server}? text=${encodedURI}";
+    return `${server}? text=${encodedURI}`;
 }
